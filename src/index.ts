@@ -73,7 +73,7 @@ const startServer = async () => {
             });
         });
 
-        const PORT = parseInt(process.env.PORT || '5000', 10);
+        const PORT = parseInt(process.env.PORT || '10000', 10);
 
         // Function to try starting server on a port
         const tryStartServer = (port: number): Promise<void> => {
