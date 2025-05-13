@@ -4,9 +4,10 @@
     "description": "The task was done by Harsh A Dubey",
     "main": "dist/index.js",
     "scripts": {
-        "start": "ts-node src/index.ts",
-        "dev": "nodemon src/index.ts",
         "build": "tsc",
+        "start": "node dist/index.js",
+        "dev": "nodemon src/index.ts",
+        
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {
